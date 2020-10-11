@@ -9,12 +9,13 @@ In this paper, we propose a novel dual attention residual group networks (DARGNe
 ## Datasets
 
 our model are evaluated on three datasets: 
-Rain100H , Rain100L , Rain12 . 
+Rain100H , Rain100L , Rain12 .   
 Please download the testing datasets from [BaiduYun](https://pan.baidu.com/s/115-OBqATI9JGS3ZG0-BUsA) Access Code ：xbts 
 and place the unzipped folders into `./datasets/test/`.
-To train the models, please download training datasets: 
-RainTrainH , RainTrainL from [BaiduYun](https://pan.baidu.com/s/115-OBqATI9JGS3ZG0-BUsA) Access Code ：xbts  
+To train the models, please download training datasets:   
+RainTrainH , RainTrainL from [BaiduYun](https://pan.baidu.com/s/115-OBqATI9JGS3ZG0-BUsA) Access Code ：xbts    
 and place the unzipped folders into `./datasets/train/`
+
 
 ## Getting Started
 
