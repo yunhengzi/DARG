@@ -1,6 +1,4 @@
-'''
-残差群
-'''
+
 import os
 import argparse
 import numpy as np
@@ -17,7 +15,7 @@ from torch.optim.lr_scheduler import MultiStepLR
 from SSIM import *
 from model import *
 
-parser = argparse.ArgumentParser(description="DRN_train_Rain100H")
+parser = argparse.ArgumentParser(description="DARG_Rain100H")
 parser.add_argument("--preprocess", type=bool, default=True, help='run prepare_data or not')
 parser.add_argument("--batchSize", type=int, default=8, help="Training batch size")
 parser.add_argument("--epochs", type=int, default=100, help="Number of training epochs")
